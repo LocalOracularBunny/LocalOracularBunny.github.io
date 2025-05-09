@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+|Name|Context|Language(s)|Description|
+|---|---|---|---|
+|Physics Homework Solver | Personal | Python | One of my first python projects, it was a tui application that prompted for what equation you needed to solve, what variable you were looking for, then the other variables and spit out the answer.|
+|Factoring Homework Helper | Personal | Python | I wrote this for my little brother that was learning to find the factors of a number. I had him prove that he knew how to do the work, but because his teacher assigned him 200 problems for one night I wrote a script to take in a number and spit out the factors of that number.|
+|LACN's suitcase | Personal | JavaScript | I didn't write this from scratch but worked on this as part of a team of developers, it was a helper script that ran in a game we all played online to collect data from the game, assist with actions by setting some default values and analyzing the data collected to provide various types of output.|
+|Bank Book Printer | Professional | Clarion | Again I didn't write this from the ground up but was handed the application to maintain. It handled printing the payment coupons for a bank loan. I was tasked with updating some of the functionality and occassionally adding new features.|
+|Company website and Inventory Management App | Professional | html/php | This was a project where a company was being spun up from an existing company, so I was tasked with imitating the parent company website with new information and adding on an inventory management application that the employees could login to view and manipulate the inventory of their customers.|
+|Connectwise/Zabbix Integration | Professional | Python | A one way sync that pushed problems from Zabbix to Connectwise tickets and maintained a map of the problem id/ticket id numbers. 
+|DjangoTracked | Professional | Python | I rewriote a contract tracking application from javascript to python in order to improve maintainability and stability.|
+|Grass | Professional | Rust | This project was to integrate with the 8x8 api and track when agents signed in and compare that to their shifts to generate a report of discrepancies for management.|
+|RedLightDistrict | Professional | Bash | A Bash script that checked the Connectwise ticketing system for tickets that matche certain criteria and if found intefaced with the api of some home automation equipment to turn on some lights to let the technicians know there were tickets that needed their attention.|
+|Bulk Edit | Professional | Python | A collection of various bulk features that were added to integrate to Connectwise Manage, LogicMonitor and HaloPSA to make bulk changes, often only needed once each to avoid having to task people with making repeated small changes to the systems.|
+|LMPP | Professional | Python | Pushing and Pulling data from Logic monitor. Primarily to pull out the existing devices and instances (with some filters) to csv files to be processed by hand and then pushed to upload the data to LM.|
+|SDPI | Professional | C# | Another project that I was handed to maintain and expand on. I didn't have much experience with C# at the start of this project but I was able to get onboarded fairly quickly and start being productive. This is an integration between two ticketing systems providing a bidirectional sync. I have done routine maintenance on it updating the integration to handle the changes pushed to either side of the integration as well as added new functionality to the integration to handle expanding requirements to keep both companies happy.|
+|Tank Monitor | Personal | Python | This is a fish tank temperature monitoring system that uses a raspi with a pair of temperature sensors to measure the water and ambient temperatures to show trends as well as send alerts if the temperature goes outside of the expected ranges.|
+|SDPIP | Professional | Python | A rewrite of the previous project in python to allow for more flexibility with the types as well as use a language that has more resources in the company that are familiar with it.|
